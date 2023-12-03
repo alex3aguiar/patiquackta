@@ -13647,7 +13647,7 @@ const Features = { // eslint-disable-line no-unused-vars
 	 * @function Engine.isSecureContext
 	 */
 	isCrossOriginIsolated: function () {
-		return window['crossOriginIsolated'] === true;
+		return true;
 	},
 
 	/**
@@ -13660,7 +13660,7 @@ const Features = { // eslint-disable-line no-unused-vars
 	 * @function Engine.isSharedArrayBufferAvailable
 	 */
 	isSharedArrayBufferAvailable: function () {
-		return 'SharedArrayBuffer' in window;
+		return true;
 	},
 
 	/**
